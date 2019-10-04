@@ -7,7 +7,7 @@ class SpotifyTui < Formula
 
   if OS.mac?
     url "https://github.com/Rigellute/spotify-tui/releases/download/#{version}/spotify-tui-#{version}.tar.gz"
-    sha256 "390b91b71460457ecbbf55514e95b6a4a9ed6adab527586ed9f8ebdf82782a3e"
+    sha256 "71ab138ab62a13a8c866c6ac7e6d6837294f0a3653c0d9a8e3d0b709f348071f"
   end
 
   def install
