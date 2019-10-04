@@ -1,7 +1,9 @@
 class SpotifyTui < Formula
-  version '0.3.0'
+  version 'v0.3.0'
   desc "A terminal user interface for Spotify"
   homepage "https://github.com/Rigellute/spotify-tui"
+
+  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/Rigellute/spotify-tui/releases/download/#{version}/spotify-tui-#{version}.tar.gz"
