@@ -1,4 +1,4 @@
-class SpotifyTUI < Formula
+class SpotifyTui < Formula
   version '0.3.0'
   desc "A terminal user interface for Spotify"
   homepage "https://github.com/Rigellute/spotify-tui"
