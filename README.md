@@ -17,7 +17,7 @@ cargo build --release
 Now create a tar for that new release binary
 
 ```bash
-cd targets/release
+cd target/release
 tar -czf spotify-tui-v0.3.0.tar.gz spt
 ```
 
