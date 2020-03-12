@@ -1,5 +1,5 @@
 class SpotifyTui < Formula
-  version "v0.15.0"
+  version "v0.16.0"
   desc "A terminal user interface for Spotify"
   homepage "https://github.com/Rigellute/spotify-tui"
 
@@ -7,10 +7,10 @@ class SpotifyTui < Formula
 
   if OS.mac?
     url "https://github.com/Rigellute/spotify-tui/releases/download/#{version}/spotify-tui-macos.tar.gz"
-    sha256 "bfb8b2f849a0636b6e402766b835ec6e1123967f77340594564956d3c18f44f0"
+    sha256 "16ca0e4c37982db6c25486456130451c5a7eb9d97ff4f8b20cccf5516c7757e0"
   elsif OS.linux?
     url "https://github.com/Rigellute/spotify-tui/releases/download/#{version}/spotify-tui-linux.tar.gz"
-    sha256 "d6d5bcdd04afb9a2ae1ba08f6675b02ea4241bf4289268bcca2c02181148b89d"
+    sha256 "9c368a1a48d52c7241102e7c6774e811b96dac70411db73bc301da57c9de6d5a"
   end
 
   def install
