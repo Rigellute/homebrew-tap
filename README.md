@@ -42,5 +42,5 @@ brew install Rigellute/tap/spotify-tui
 The binaries and sha256s are generated from Github Actions. Run the following script to fetch the latest sha256s and update `Formula/spotify-tui.rb`.
 
 ```
-sh scripts/spotify-tui.sh
+sh scripts/spotify-tui.sh $VERSION
 ```
