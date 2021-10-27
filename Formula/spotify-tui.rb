@@ -3,8 +3,6 @@ class SpotifyTui < Formula
   desc "A terminal user interface for Spotify"
   homepage "https://github.com/Rigellute/spotify-tui"
 
-  bottle :unneeded
-
   if OS.mac?
     url "https://github.com/Rigellute/spotify-tui/releases/download/#{version}/spotify-tui-macos.tar.gz"
     sha256 "a323cbfaed3a688bfddc98f42f38946b79a3c29ae9cb7fe2af8135782917b4c0"
